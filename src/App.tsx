@@ -1,13 +1,10 @@
 import React from 'react';
-
+import SelectSite from './components/pages/SelectSite/SelectSite';
+import SiteArea from './components/UI/organisms/SiteArea/SiteArea';
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <SelectSite/>
     </div>
   );
 }

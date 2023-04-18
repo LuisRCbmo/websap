@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@488&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+tr{
+    border-collapse: separate;
+    margin-left: 10%;
+}
+
+.site.state-1 {
+    border: 3px dashed #000;
+    width:5%;
+    height: 65px !important;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: separate;
+    background-color: white;
+}
+
+.entry{
+    background-color: #000;
+    width: 10%;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    border-spacing: 20px;
+}
+
+.parkingArea{
+    background-color: #59544B;
+    width: 100%;
+    padding: 0;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin: auto;
+}
+
+.siteInformation{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.site.whiteSite {
+    border: 3px dashed #000;
+    width:45px;
+    height: 65px !important;
+    border-collapse: separate;
+    background-color: white;
+}
+.site.redSite {
+    border: 3px dashed #000;
+    width:45px;
+    height: 65px !important;
+    border-collapse: separate;
+    background-color: #CC0000;
+}
+
+td :placeholder{
+    background-color: aqua;
+    color: aqua;
+}
