@@ -1,0 +1,15 @@
+.FormTittle{
+  background: rgba(53, 125, 237);
+
+  height: 70px;
+  border-radius: 20px 20px 0px 0px;
+}
+.Span-Input{
+  display: flex;
+  align-items: center;
+  
+  height: 100%;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-left: 3.2%;
+}
