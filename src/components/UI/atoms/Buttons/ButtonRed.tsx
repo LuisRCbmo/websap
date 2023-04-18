@@ -1,10 +1,14 @@
 import React from 'react';
 import "./buttonRedStyle.css"
-const ButtonRed = (props) => {
+
+type Props = {
+    text: string;
+  }
+const ButtonRed: React.FC<Props> = ({ text }) => {
     return(
         <div className="contentButtonRed">
             <button className='red'>
-                {props.text}
+                {text}
             </button>
         </div>
     )

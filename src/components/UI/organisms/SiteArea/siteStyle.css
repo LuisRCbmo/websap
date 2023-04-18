@@ -48,19 +48,29 @@ table {
 .site.whiteSite {
     border: 3px dashed #000;
     width:45px;
-    height: 65px !important;
+    height: 50px !important;
     border-collapse: separate;
     background-color: white;
 }
 .site.redSite {
     border: 3px dashed #000;
     width:45px;
-    height: 65px !important;
+    height: 50px !important;
     border-collapse: separate;
     background-color: #CC0000;
 }
 
-td :placeholder{
+.site.taken{
+    border: 3px dashed #000;
+    width:5%;
+    height: 65px !important;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: separate;
+    background-color: #CC0000;
+}
+
+td ::placeholder{
     background-color: aqua;
     color: aqua;
 }

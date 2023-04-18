@@ -1,7 +1,21 @@
 import React from 'react';
 import "./siteStyle.css"
+import $ from "jquery";
+
+function changeState(className:string): void {
+        var element = document.getElementsByClassName(className);
+        if(element != null){
+                element[0].className='site taken';
+                console.log("gay");
+        }else{
+                console.log("gfay");   
+        }
+}
+      
+      
 
 const SiteArea = () => {
+
     return(
         <div className="parkingArea">
             <table>
@@ -18,7 +32,7 @@ const SiteArea = () => {
                     <td className="site state-1" data-site="A9" colSpan ={1}>A 9</td>  
                     <td className="site state-1" data-site="A10" colSpan ={1}>A 10</td>  
                     <td className="site state-1" data-site="A11" colSpan ={1}>A 11</td>  
-                    <td className="site state-1" data-site="A12" colSpan ={1}>A 12</td>  
+                    <td className="site taken" data-site="A12" colSpan ={1}>A 12</td>  
             </tr>
             <tr>
                     <td className="site blank" data-site="" colSpan ={1}></td>  
@@ -92,6 +106,7 @@ const SiteArea = () => {
                     <td className="site state-1" data-site="F12" colSpan ={1}>F 12</td>  
             </tr>
             </table>
+        
         </div>
     )
 
