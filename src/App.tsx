@@ -4,7 +4,7 @@ import SiteArea from './components/UI/organisms/SiteArea/SiteArea';
 function App() {
   return (
     <div>
-      <SelectSite/>
+      <SelectSite siteId={''}/>
     </div>
   );
 }
