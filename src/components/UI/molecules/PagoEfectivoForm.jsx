@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../atoms/Button';
+import './PagoEfectivoForm.css';
 
 function PagoEfectivoForm({ onSubmit }) {
   const [cliente, setCliente] = useState('');
@@ -12,21 +13,27 @@ function PagoEfectivoForm({ onSubmit }) {
   };
 
   return (
+    <div className='RegistroPagos'>
+        <h1>Registro de Pagos</h1>
     <form onSubmit={handleSubmit}>
-      <label>
-        Cliente:
-        <input type="text" value={cliente} onChange={(e) => setCliente(e.target.value)} />
-      </label><br />
-      <label>
-        Fecha:
-        <input type="date" value={fecha} onChange={(e) => setFecha(e.target.value)} />
-      </label><br />
-      <label>
-        Monto:
-        <input type="number" value={monto} onChange={(e) => setMonto(e.target.value)} />
-      </label><br />
-      <Button type="submit">Realizar Pago</Button>
+    <label>
+      Cliente:
+      <input type="text" value={cliente} onChange={(e) => setCliente(e.target.value)} />
+    </label><br />
+    <label>
+      Fecha:
+      <input className='fechaLabel' type="date" value={fecha} onChange={(e) => setFecha(e.target.value)} />
+    </label><br />
+    <label>
+      Monto:
+      <input className='montoLabel' type="number" value={monto} onChange={(e) => setMonto(e.target.value)} />
+    </label><br />
+    <div className="form-buttons-container">
+      <button className="miButton">Cancelar</button>
+      <Button type="submit">Confirmar</Button>
+    </div>
     </form>
+    </div>
   );
 }
 

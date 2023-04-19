@@ -11,7 +11,6 @@ function PageCobro() {
   
     return (
       <div>
-        <h1>Registro de Pagos</h1>
         <CobroEfectivoSection onPagoEfectivo={handlePagoEfectivo} />
       </div>
     );

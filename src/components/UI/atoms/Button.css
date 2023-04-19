@@ -1,12 +1,12 @@
 .myButton {
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
+    margin: 10px;
     padding: 8px 16px;
     border-radius: 4px;
-    border: none;
     cursor: pointer;
   }
   
 .myButton:hover {
-    background-color: darkblue;
+    background-color: rgb(114, 194, 255);
   }
