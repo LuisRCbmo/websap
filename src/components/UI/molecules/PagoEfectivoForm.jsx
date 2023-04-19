@@ -12,10 +12,6 @@ function PagoEfectivoForm({ onSubmit, onCancel }) {
     onSubmit({ cliente, fecha, monto });
   };
 
-  const handleCancelarClick = () => {
-    onCancel();
-  };
-
   return (
     <div className='RegistroPagos'>
         <h1>Registro de Pagos</h1>
@@ -30,11 +26,11 @@ function PagoEfectivoForm({ onSubmit, onCancel }) {
     </label><br />
     <label>
       Monto:
-      <input className='montoLabel' type="number" value={monto} onChange={(e) => setMonto(e.target.value)} />
+      <input className='montoLabel' type="number" value={50} readOnly/>
     </label><br />
     <div className="form-buttons-container">
-      <button className="miButton" onClick={handleCancelarClick}>Cancelar</button>
-      <Button type="submit">Confirmar</Button>
+    <button className="miButton" onClick={() => window.confirm('¿Está seguro de cancelar el pago?')}>Cancelar</button>
+    <Button type="submit" onClick={() => window.confirm('¿Está seguro de confirmar el pago?')}>Confirmar</Button>
     </div>
     </form>
     </div>

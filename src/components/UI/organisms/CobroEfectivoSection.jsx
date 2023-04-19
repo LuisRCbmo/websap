@@ -6,12 +6,15 @@ function CobroEfectivoSection({ onPagoEfectivo }) {
   const [mostrarFormulario, setMostrarFormulario] = useState(false);
 
   const handlePagarEfectivoClick = () => {
-    setMostrarFormulario(true);
+    if (window.confirm('¿Está seguro de pagar en efectivo?')) {
+      setMostrarFormulario(true);
+    }
   };
 
   const handlePagoEfectivoSubmit = (datosPago) => {
-    onPagoEfectivo(datosPago);
+      onPagoEfectivo(datosPago);
     setMostrarFormulario(false);
+    
   };
 
   const handleCancelarClick = () => {
