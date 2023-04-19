@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from '../atoms/Button';
 import './PagoEfectivoForm.css';
 
-function PagoEfectivoForm({ onSubmit }) {
+function PagoEfectivoForm({ onSubmit, onCancel }) {
   const [cliente, setCliente] = useState('');
   const [fecha, setFecha] = useState('');
   const [monto, setMonto] = useState('');
@@ -10,6 +10,10 @@ function PagoEfectivoForm({ onSubmit }) {
   const handleSubmit = (event) => {
     event.preventDefault();
     onSubmit({ cliente, fecha, monto });
+  };
+
+  const handleCancelarClick = () => {
+    onCancel();
   };
 
   return (
@@ -29,7 +33,7 @@ function PagoEfectivoForm({ onSubmit }) {
       <input className='montoLabel' type="number" value={monto} onChange={(e) => setMonto(e.target.value)} />
     </label><br />
     <div className="form-buttons-container">
-      <button className="miButton">Cancelar</button>
+      <button className="miButton" onClick={handleCancelarClick}>Cancelar</button>
       <Button type="submit">Confirmar</Button>
     </div>
     </form>

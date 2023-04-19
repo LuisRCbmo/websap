@@ -14,16 +14,21 @@ function CobroEfectivoSection({ onPagoEfectivo }) {
     setMostrarFormulario(false);
   };
 
+  const handleCancelarClick = () => {
+    setMostrarFormulario(false);
+  };
+
   return (
     <>
       {!mostrarFormulario && (
         <PagarEfectivoButton onClick={handlePagarEfectivoClick} />
       )}
       {mostrarFormulario && (
-        <PagoEfectivoForm onSubmit={handlePagoEfectivoSubmit} />
+        <PagoEfectivoForm onSubmit={handlePagoEfectivoSubmit} onCancel={handleCancelarClick} />
       )}
     </>
   );
 }
+
 
 export default CobroEfectivoSection;
