@@ -1,12 +1,11 @@
 import React from 'react';
+import PageCobro from './components/pages/PageCobro';
 
 function App() {
   return (
     <div>
       <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <PageCobro/>
       </header>
     </div>
   );
