@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Input,Checkbox,RadioGroup,Button } from '../atoms/';
+import Input from '../atoms/Input';
+import Checkbox from '../atoms/Checkbox';
+import RadioGroup from '../atoms/RadioGroup';
+import Button from '../atoms/Button';
 
 
 function GuardiaForm({ onSubmit }) {
