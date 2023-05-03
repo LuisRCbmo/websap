@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Input({ type, value, onChange }) {
-  return (
-    <input type={type} value={value} onChange={onChange} />
-  );
-}
+function Input({ label, value, onChange }) {
+    return (
+      <div>
+        <label>{label}</label>
+        <input type="text" value={value} onChange={onChange} />
+      </div>
+    );
+  }
 
 export default Input;
