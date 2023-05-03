@@ -1,13 +1,10 @@
 import React from 'react';
+import Login from './components/pages/login/Login';
 
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <Login></Login>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.contentLogin{
+    background-color: #011638;
+    width: 40%;
+    color: white;
+    margin: auto;
+    padding: 0.5%;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-align: center;
+}
