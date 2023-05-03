@@ -25,8 +25,8 @@ function PagoEfectivoForm({ onSubmit, onCancel }) {
       <input className='fechaLabel' type="date" value={fecha} onChange={(e) => setFecha(e.target.value)} />
     </label><br />
     <label>
-      Monto:
-      <input className='montoLabel' type="number" value={50} readOnly/>
+      Monto a pagar:
+      <input className='montoLabel' type="number"/>
     </label><br />
     <div className="form-buttons-container">
     <button className="miButton" onClick={() => window.confirm('¿Está seguro de cancelar el pago?')}>Cancelar</button>
