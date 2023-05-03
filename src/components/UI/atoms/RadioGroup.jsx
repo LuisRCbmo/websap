@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './RadioGroup.css';
 function RadioGroup({ label, options, value, onChange }) {
     return (
-      <div>
+      <div className='radio'>
         <label>{label}</label>
         {options.map((option) => (
           <div key={option.value}>

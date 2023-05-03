@@ -16,7 +16,6 @@ function GuardiaForm({ onSubmit }) {
       jueves: false,
       viernes: false,
       sabado: false,
-      domingo: false,
     });
   
     const handleSubmit = (event) => {
@@ -28,10 +27,13 @@ function GuardiaForm({ onSubmit }) {
       <div className='GuardiaHorario'>
         <h1>Asignar Horario a Guardia</h1>
       <form onSubmit={handleSubmit}>
-        <Input label="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} />
-        <Input label="Apellido" value={apellido} onChange={(e) => setApellido(e.target.value)} />
-        <label>Horario :</label>
-        <RadioGroup
+        <label className='labeles'>Nombre :</label>
+        <Input value={nombre} onChange={(e) => setNombre(e.target.value)} />
+        <label className='labeles'>Apellido :</label>
+        <Input value={apellido} onChange={(e) => setApellido(e.target.value)} />
+        <div className='horario'>
+        <label className='labeles'>Horario :</label>
+        <RadioGroup className="radio"
           options={[
             { value: '6-13', label: '6am - 1pm' },
             { value: '13-20', label: '1pm - 8pm' },
@@ -39,14 +41,16 @@ function GuardiaForm({ onSubmit }) {
           value={horario}
           onChange={(e) => setHorario(e.target.value)}
         />
-        <label>Dia</label>
+        </div>
+        <div className='dia'>
+        <label className='labeles'>Dia:</label>
         <Checkbox label="Lunes" checked={dias.lunes} onChange={(e) => setDias({ ...dias, lunes: e.target.checked })} />
         <Checkbox label="Martes" checked={dias.martes} onChange={(e) => setDias({ ...dias, martes: e.target.checked })} />
         <Checkbox label="Miércoles" checked={dias.miercoles} onChange={(e) => setDias({ ...dias, miercoles: e.target.checked })} />
         <Checkbox label="Jueves" checked={dias.jueves} onChange={(e) => setDias({ ...dias, jueves: e.target.checked })} />
         <Checkbox label="Viernes" checked={dias.viernes} onChange={(e) => setDias({ ...dias, viernes: e.target.checked })} />
         <Checkbox label="Sábado" checked={dias.sabado} onChange={(e) => setDias({ ...dias, sabado: e.target.checked })} />
-        <Checkbox label="Domingo" checked={dias.domingo} onChange={(e) => setDias({ ...dias, domingo: e.target.checked })} />
+        </div>
         <Button type="submit">Asignar</Button>
       </form>
       </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+import './Checkbox.css';
 
 function Checkbox({ label, checked, onChange }) {
     return (
-      <div>
-        <input type="checkbox" checked={checked} onChange={onChange} />
+      <div className='check'>
+        <input className='icheck' type="checkbox" checked={checked} onChange={onChange} />
         <label>{label}</label>
       </div>
     );
