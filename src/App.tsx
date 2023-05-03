@@ -1,13 +1,10 @@
 import React from 'react';
-import WhiteButton from './components/UI/atoms/whiteButton';
-
+import RegisterGuard from './components/UI/molecules/registerGuard';
 function App() {
   return (
     <div>
       <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <RegisterGuard></RegisterGuard>
       </header>
     </div>
   );
