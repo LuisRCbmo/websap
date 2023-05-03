@@ -1,4 +1,5 @@
 import React from 'react';
+import WhiteButton from './components/UI/atoms/whiteButton';
 
 function App() {
   return (
