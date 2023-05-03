@@ -44,14 +44,16 @@ function GuardiaForm({ onSubmit }) {
         </div>
         <div className='dia'>
         <label className='labeles'>Dia:</label>
-        <Checkbox label="Lunes" checked={dias.lunes} onChange={(e) => setDias({ ...dias, lunes: e.target.checked })} />
-        <Checkbox label="Martes" checked={dias.martes} onChange={(e) => setDias({ ...dias, martes: e.target.checked })} />
-        <Checkbox label="Miércoles" checked={dias.miercoles} onChange={(e) => setDias({ ...dias, miercoles: e.target.checked })} />
-        <Checkbox label="Jueves" checked={dias.jueves} onChange={(e) => setDias({ ...dias, jueves: e.target.checked })} />
-        <Checkbox label="Viernes" checked={dias.viernes} onChange={(e) => setDias({ ...dias, viernes: e.target.checked })} />
-        <Checkbox label="Sábado" checked={dias.sabado} onChange={(e) => setDias({ ...dias, sabado: e.target.checked })} />
+        <Checkbox label="Lun" checked={dias.lunes} onChange={(e) => setDias({ ...dias, lunes: e.target.checked })} />
+        <Checkbox label="Mar" checked={dias.martes} onChange={(e) => setDias({ ...dias, martes: e.target.checked })} />
+        <Checkbox label="Mie" checked={dias.miercoles} onChange={(e) => setDias({ ...dias, miercoles: e.target.checked })} />
+        <Checkbox label="Jue" checked={dias.jueves} onChange={(e) => setDias({ ...dias, jueves: e.target.checked })} />
+        <Checkbox label="Vie" checked={dias.viernes} onChange={(e) => setDias({ ...dias, viernes: e.target.checked })} />
+        <Checkbox label="Sab" checked={dias.sabado} onChange={(e) => setDias({ ...dias, sabado: e.target.checked })} />
         </div>
+        <div className='boton'>
         <Button type="submit">Asignar</Button>
+        </div>
       </form>
       </div>
     );

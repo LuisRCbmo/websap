@@ -45,6 +45,8 @@
       color: white;
       background-color:  rgb(93, 138, 253);
       border-radius: 8px;
+      font-weight: bold;
+      font-size: 23px;
   }
   .labeles{
     background-color: rgb(139, 179, 253);
@@ -64,7 +66,7 @@
   .dia label{
     margin-bottom: 20px; 
   }
-  .inp{
-    width: 100px;
+
+  .boton{
+    margin-left: 35%;
   }
-  
