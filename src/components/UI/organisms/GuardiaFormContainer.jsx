@@ -15,8 +15,7 @@ function GuardiaFormContainer() {
   };
 
   return (
-    <div className='fondo'>
-        <h1>Asignar Horario a Guardia</h1>
+    <div>
       {confirmacionVisible && <p>Guardia asignada correctamente</p>}
       <GuardiaForm onSubmit={handleSubmit} />
     </div>

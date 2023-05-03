@@ -3,7 +3,7 @@ import Input from '../atoms/Input';
 import Checkbox from '../atoms/Checkbox';
 import RadioGroup from '../atoms/RadioGroup';
 import Button from '../atoms/Button';
-
+import './GuardiaForm.css';
 
 function GuardiaForm({ onSubmit }) {
     const [nombre, setNombre] = useState('');
@@ -25,12 +25,13 @@ function GuardiaForm({ onSubmit }) {
     };
   
     return (
-      
+      <div className='GuardiaHorario'>
+        <h1>Asignar Horario a Guardia</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} />
         <Input label="Apellido" value={apellido} onChange={(e) => setApellido(e.target.value)} />
+        <label>Horario :</label>
         <RadioGroup
-          label="Horario"
           options={[
             { value: '6-13', label: '6am - 1pm' },
             { value: '13-20', label: '1pm - 8pm' },
@@ -38,6 +39,7 @@ function GuardiaForm({ onSubmit }) {
           value={horario}
           onChange={(e) => setHorario(e.target.value)}
         />
+        <label>Dia</label>
         <Checkbox label="Lunes" checked={dias.lunes} onChange={(e) => setDias({ ...dias, lunes: e.target.checked })} />
         <Checkbox label="Martes" checked={dias.martes} onChange={(e) => setDias({ ...dias, martes: e.target.checked })} />
         <Checkbox label="Miércoles" checked={dias.miercoles} onChange={(e) => setDias({ ...dias, miercoles: e.target.checked })} />
@@ -45,8 +47,9 @@ function GuardiaForm({ onSubmit }) {
         <Checkbox label="Viernes" checked={dias.viernes} onChange={(e) => setDias({ ...dias, viernes: e.target.checked })} />
         <Checkbox label="Sábado" checked={dias.sabado} onChange={(e) => setDias({ ...dias, sabado: e.target.checked })} />
         <Checkbox label="Domingo" checked={dias.domingo} onChange={(e) => setDias({ ...dias, domingo: e.target.checked })} />
-        <Button type="submit">Confirmar</Button>
+        <Button type="submit">Asignar</Button>
       </form>
+      </div>
     );
   }
   
