@@ -1,13 +1,9 @@
 import React from 'react';
-
+import ViewReservation from './components/pages/viewReservation/ViewReservation';
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <ViewReservation></ViewReservation>
     </div>
   );
 }
