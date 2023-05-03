@@ -25,6 +25,7 @@ function GuardiaForm({ onSubmit }) {
     };
   
     return (
+      
       <form onSubmit={handleSubmit}>
         <Input label="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} />
         <Input label="Apellido" value={apellido} onChange={(e) => setApellido(e.target.value)} />

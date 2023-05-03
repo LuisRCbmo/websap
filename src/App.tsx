@@ -1,11 +1,13 @@
 import React from 'react';
-import GuardiaFormContainer from './components/UI/organisms/GuardiaFormContainer';
+import PageHorario from './components/pages/PageHorario';
 
 
 function App() {
   return (
     <div>
-      <GuardiaFormContainer/>
+      <header>
+      <PageHorario/>
+      </header>
     </div>
   );
 }
