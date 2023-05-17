@@ -1,0 +1,31 @@
+h1{
+    padding-top: 200px;
+    padding-left: 500px;
+}
+.tablita{
+    margin-right: 40%;
+    margin-top: 10%;
+    background-color: #98BDF6;
+    padding: 40px;
+    padding-left: 90px;
+    border-radius: 25px;
+}
+.clientes{
+    width: 600px;
+}
+.todo{
+    display: inline-flex;
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px ;
+    padding-left: 50px ;
+}
+thead{
+    background-color: white;
+}
+tbody{
+    margin-top: 20px;
+    background-color: white;
+}

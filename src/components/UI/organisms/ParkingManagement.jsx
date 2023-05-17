@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
 import VehicleRegistration from '../molecules/VehicleRegistration';
+import './ParkingManagement.css';
 
 function ParkingManagement() {
     const [vehicleRecords, setVehicleRecords] = useState([]);
   
     const handleRegisterVehicle = (matricula) => {
       const currentTime = new Date().toLocaleTimeString();
-      const newRecord = { cliente: 'Nombre del cliente', matricula, horaIngreso: currentTime };
+      const newRecord = { cliente: 'Oliver', matricula, horaIngreso: currentTime };
       setVehicleRecords([...vehicleRecords, newRecord]);
     };
   
     return (
       <div className='tablaParqueo'>
         <h1>Registros ingreso de clientes</h1>
+        <div className='todo'>
         <VehicleRegistration onRegister={handleRegisterVehicle} />
-        <h2>Clientes usando parqueo</h2>
+        <div className='tablita'>
+        <h2 className='clientes'>Clientes usando parqueo</h2>
         <table>
           <thead>
             <tr>
@@ -39,6 +42,8 @@ function ParkingManagement() {
             )}
           </tbody>
         </table>
+        </div>
+        </div>
       </div>
     );
   }
