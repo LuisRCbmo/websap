@@ -1,7 +1,8 @@
 .user{
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 5%;
-    margin-right: 30%
+    margin-right: 10%;
+    width: 100% !important;
 }
 .cuadroAzul{
     background-color: #011638;
@@ -12,4 +13,5 @@
     padding-left: 160px;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin: 0;
 }
