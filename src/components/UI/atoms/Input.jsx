@@ -1,3 +1,7 @@
+/*import './Input.css';
+function Input({ value, onChange }) {
+  return <input type="text" value={value} onChange={onChange} />;
+}*/
 import React from 'react';
 import './Input.css';
 function Input({ label, value, onChange }) {
@@ -8,5 +12,4 @@ function Input({ label, value, onChange }) {
       </div>
     );
   }
-
 export default Input;

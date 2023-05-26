@@ -1,3 +1,9 @@
+input{
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 10px;
+    height: 25px;
+}
 .name{
     margin: 10px;   
 }
