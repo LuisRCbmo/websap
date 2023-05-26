@@ -1,6 +1,5 @@
 import React from 'react';
-import Login from './components/pages/login/Login';
-
+import ViewReservation from './components/pages/viewReservation/ViewReservation';
 function App() {
   return (
     <div>

@@ -1,0 +1,15 @@
+.ContentFormView{
+    width: 50%;
+    margin: auto;
+    background-color: #357DED;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: #ffffff;
+}
+
+.ContentFormView h1{
+    font-weight: 100;
+    padding: 1%;
+    padding-left: 3%;
+    padding-bottom: 0;
+}
