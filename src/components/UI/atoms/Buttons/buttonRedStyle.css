@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@488&display=swap');
+
+.red{
+    background-color: #CC0000;
+    color: #ffffff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    left: 1613px;
+    top: 536px;
+    border: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+}
+
+.contentButtonRed{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
+

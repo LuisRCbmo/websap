@@ -4,3 +4,9 @@ input{
     padding-left: 10px;
     height: 25px;
 }
+.name{
+    margin: 10px;   
+}
+.name input{
+    width: 400px;
+}

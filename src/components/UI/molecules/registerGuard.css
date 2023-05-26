@@ -1,0 +1,70 @@
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto ;
+    background-color: white;
+    min-height: 646px;
+    width: 1072px;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: auto ;
+  }
+
+  .grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 822px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .item1 {
+    background-color: #357DED;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-size: 40px;
+    padding-left: 55px;
+    min-height: 79px;
+    display: flex;
+    align-items: center;
+  }
+
+  .item1 > p{
+    margin: 0;
+  }
+
+  .item2 {
+    background-color: rgba(53, 124, 237, 0.51);
+    border-radius: 0px 0px 20px 20px;
+    min-height: 570px;
+  }
+
+  .item21 {
+    padding-top: 95px;
+    text-align: center;
+  }
+
+  .guard-register-item{
+    display: flex;
+    padding-bottom: 18px;
+    width: 822px;
+    margin: auto;
+  }
+
+
+  .guard-register-label{
+    text-align: start;
+    width: 217px;
+    color: white;
+    font-size: 24px;
+  }
+
+  .guard-register-input{
+    height: 38px;
+    width: 590px;
+    border-radius: 10px;
+    border: 0px;
+    color: black;
+    font-size: 24px;
+  }
