@@ -1,6 +1,6 @@
 import React from 'react';
-import RegistrationReserve from './components/UI/organisms/RegistrationReserve/RegistrationReserve';
-
+import SelectSite from './components/pages/SelectSite/SelectSite';
+import SiteArea from './components/UI/organisms/SiteArea/SiteArea';
 function App() {
   return (
     <div>
