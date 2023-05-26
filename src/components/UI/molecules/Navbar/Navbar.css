@@ -1,0 +1,24 @@
+nav {
+  background-color: #011638;
+  padding: 15px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar-center {
+  font-size: 40px;
+  color: #FFFFFF;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.navbar-right {
+  margin-left: auto;
+  margin-right: 2%;
+}

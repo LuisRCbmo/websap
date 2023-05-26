@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@488&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+}
+.inputSite{
+    border: 0;
+    width: 164px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: #000000;
+    text-align: center;
+    display: inline;
+}
+
+.labelSite{
+    margin-right: 8px;
+
+    display: inline;
+
+}
+
+.contentFormSite{
+    margin: auto;
+    width: fit-content;
+}
+
