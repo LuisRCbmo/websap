@@ -1,5 +1,7 @@
 import React from 'react';
-import RegisterGuard from './components/UI/molecules/registerGuard';
+import PageHorario from './components/pages/PageHorario';
+
+
 function App() {
   return (
     <div>
