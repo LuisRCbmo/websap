@@ -1,6 +1,6 @@
 import React from 'react';
-import SelectSite from './components/pages/SelectSite/SelectSite';
-import SiteArea from './components/UI/organisms/SiteArea/SiteArea';
+import Login from './components/pages/login/Login';
+
 function App() {
   return (
     <div>

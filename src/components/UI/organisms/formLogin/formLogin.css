@@ -1,0 +1,44 @@
+.contentFormLogin{
+    text-align: justify;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    height: 230px;
+}
+
+
+.contentFormLogin input{
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 0; 
+    margin: 0 !important;
+    width: 70% !important;
+    padding: 1%;
+    padding-left: 2%;
+    margin-right: 0;
+
+}
+
+
+.contentFormLogin button{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #CC0000;
+    padding: 3%;
+    width: 30%;
+    color: #ffffff;
+    border: 1px black;
+    margin: auto;
+    margin-top: 3%;
+}
+.buttonLogin{
+    text-align: center;
+}
+
+.inputBar{
+    margin: auto;
+    width: 90% !important;
+    margin-top: 3% !important;
+    padding: 0 !important;
+}
+
