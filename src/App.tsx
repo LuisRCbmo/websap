@@ -1,6 +1,6 @@
 import React from 'react';
-import ParkingManagement from './components/UI/organisms/ParkingManagement';
 import PageHorario from './components/pages/PageHorario';
+
 
 function App() {
   return (
@@ -8,5 +8,5 @@ function App() {
     </div>
   );
 }
-
+  
 export default App;
