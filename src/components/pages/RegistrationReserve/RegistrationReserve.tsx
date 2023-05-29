@@ -1,6 +1,6 @@
 import React from "react";
-import RegistrationForm from "../../molecules/RegistrationForm/RegistrationForm";
-import FormTittle from "../../atoms/FormTittle/FormTittle";
+import RegistrationForm from "../../UI/molecules/RegistrationForm/RegistrationForm";
+import FormTittle from "../../UI/atoms/FormTittle/FormTittle";
 import "./RegistrationReserve.css";
 
 const RegistrationReserve: React.FC = () => {
