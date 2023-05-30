@@ -1,5 +1,5 @@
 
-import GuardiaFormContainer from '../UI/organisms/GuardiaFormContainer';
+import GuardiaFormContainer from '../UI/organisms/SeccionFormularioGuardia/SeccionFormularioGuardia';
 
 function PageHorario() {
     

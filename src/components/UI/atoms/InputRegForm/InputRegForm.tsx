@@ -1,13 +1,13 @@
 import React, { InputHTMLAttributes } from "react";
 import Button from "../Button/Button";
-import "./Input.css";
+import "./InputRegForm.css";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label: string;
   mode?: string;
 }
 
-const Input: React.FC<InputProps> = ({ label, mode=null, ...rest }) => {
+const InputRegForm: React.FC<InputProps> = ({ label, mode=null, ...rest }) => {
   if (mode === "reg-site"){
     return (
       <div className="Input">
@@ -35,4 +35,4 @@ const Input: React.FC<InputProps> = ({ label, mode=null, ...rest }) => {
   );
 };
 
-export default Input;
+export default InputRegForm;

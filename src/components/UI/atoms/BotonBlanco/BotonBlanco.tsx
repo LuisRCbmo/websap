@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import './whiteButton.css'
+import './BotonBlanco.css'
 
 
-const whiteButton = (props:any) => {
+const WhiteButton = (props:any) => {
   const [text, setText] = useState("N/A");
   
   useEffect(() => {
@@ -16,4 +16,4 @@ const whiteButton = (props:any) => {
   )
 }
 
-export default whiteButton
+export default WhiteButton

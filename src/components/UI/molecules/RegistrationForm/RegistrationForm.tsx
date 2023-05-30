@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "../../atoms/Input/Input"
+import Input from "../../atoms/InputRegForm/InputRegForm"
 import Button from "../../atoms/Button/Button";
 //import { postSite } from "../../atoms/Database/queries";
 import "./RegistrationForm.css";

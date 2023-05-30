@@ -1,5 +1,5 @@
 
-import CobroEfectivoSection from '../UI/organisms/CobroEfectivoSection';
+import CobroEfectivoSection from '../UI/organisms/CobroEfectivo/CobroEfectivo';
 
 function PageCobro() {
     

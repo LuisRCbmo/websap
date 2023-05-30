@@ -1,63 +1,12 @@
-.Input{
-  padding: 1% 0;
-  display: flex;
+input{
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 10px;
+    height: 25px;
 }
-.Label-Input{
-  width: 30%;
-  height: 29px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 150%;
+.name{
+    margin: 10px;   
 }
-.Label-Input-White{
-  color: #FFFFFF;
-  text-align: left;
-}
-.Label-Input-Black{
-  color: #000000;
-  text-align: center;
-}
-.Input-Input{
-  width: 70%;
-  height: 38px;
-  left: 792px;
-  top: 344px;
-
-  background: #FFFFFF;
-  border-radius: 10px;
-  border-style: hidden;
-}
-.Input-Input-Site{
-  width: 40%;
-  height: 38px;
-  left: 792px;
-  top: 344px;
-
-  background: #FFFFFF;
-  border-radius: 10px;
-  border-style: hidden;
-}
-.Label-Input-Site{
-  width: 31%;
-  height: 29px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 150%;
-}
-.Input-Input-Date{
-  width: 20%;
-  height: 38px;
-  left: 792px;
-  top: 344px;
-
-  background: #FFFFFF;
-  border-radius: 10px;
-  border-style: hidden;
-  color: #FFFFFF;
-}
-.Label-Input-White-Date{
-  color: #FFFFFF;
-  text-align: center;
+.name input{
+    width: 400px;
 }

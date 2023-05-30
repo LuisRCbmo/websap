@@ -1,8 +1,8 @@
 import React from 'react'
-import './registerGuard.css'
-import WhiteButton from '../atoms/whiteButton'
+import './RegistrarGuardia.css'
+import WhiteButton from '../../atoms/BotonBlanco/BotonBlanco'
 
-const registerGuard = () => {
+const RegisterGuard = () => {
   return (
     <div className="grid-container-1">
             <div className="item1">
@@ -46,4 +46,4 @@ const registerGuard = () => {
   )
 }
 
-export default registerGuard
+export default RegisterGuard

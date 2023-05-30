@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import VehicleRegistration from '../molecules/VehicleRegistration';
+import VehicleRegistration from '../../molecules/VehicleRegistration';
 import './ParkingManagement.css';
 
 function ParkingManagement() {
