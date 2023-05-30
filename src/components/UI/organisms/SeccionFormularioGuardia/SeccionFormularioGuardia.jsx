@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import GuardiaForm from '../molecules/GuardiaForm';
+import GuardiaForm from '../../molecules/FormularioGuardia/FormularioGuardia';
 
 function GuardiaFormContainer() {
   const [confirmacionVisible, setConfirmacionVisible] = useState(false);

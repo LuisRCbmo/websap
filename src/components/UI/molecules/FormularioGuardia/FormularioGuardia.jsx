@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Input from '../atoms/Input';
-import Checkbox from '../atoms/Checkbox';
-import RadioGroup from '../atoms/RadioGroup';
-import Button from '../atoms/Button';
-import './GuardiaForm.css';
+import Input from '../../atoms/Input/Input';
+import Checkbox from '../../atoms/Checkbox/Checkbox';
+import RadioGroup from '../../atoms/RadioGroup/RadioGroup';
+import Button from '../../atoms/BotonAc/BotonAc';
+import './FormularioGuardia.css';
 
 function GuardiaForm({ onSubmit }) {
     const [nombre, setNombre] = useState('');

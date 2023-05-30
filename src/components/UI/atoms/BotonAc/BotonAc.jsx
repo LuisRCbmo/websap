@@ -6,7 +6,7 @@ function Button({ onClick, children }) {
 export default Button;
 */
 import React from 'react';
-import './Button.css';
+import './BotonAc.css';
 
 function Button({ children, onClick }) {
     return (

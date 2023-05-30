@@ -1,6 +1,6 @@
 import React from 'react'
-import './registerGuard.css'
-import WhiteButton from '../atoms/whiteButton'
+import './RegistrarGuardia.css'
+import WhiteButton from '../../atoms/BotonBlanco/BotonBlanco'
 
 const RegisterGuard = () => {
   return (

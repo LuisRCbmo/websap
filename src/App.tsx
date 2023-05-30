@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './components/pages/login/Login';
 import SelectSite from './components/pages/SelectSite/SelectSite';
 import PageCobro from './components/pages/PageCobro';
-import ParkingManagement from './components/UI/organisms/ParkingManagement';
+import ParkingManagement from './components/UI/organisms/SeccionManejoParqueo/ParkingManagement';
 import RegistrationReserve from './components/pages/RegistrationReserve/RegistrationReserve';
-import RegisterGuard from './components/UI/molecules/registerGuard';
+import RegisterGuard from './components/UI/molecules/RegistrarGuardia/RegistrarGuardia';
 function App() {
   return (
     <BrowserRouter>

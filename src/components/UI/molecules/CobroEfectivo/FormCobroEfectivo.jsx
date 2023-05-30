@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '../atoms/Button';
-import './PagoEfectivoForm.css';
+import Button from '../../atoms/BotonAc/BotonAc';
+import './FormCobroEfectivo.css';
 
 function PagoEfectivoForm({ onSubmit, onCancel }) {
   const [cliente, setCliente] = useState('');

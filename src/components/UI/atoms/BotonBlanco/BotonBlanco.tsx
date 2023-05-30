@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './whiteButton.css'
+import './BotonBlanco.css'
 
 
 const WhiteButton = (props:any) => {
