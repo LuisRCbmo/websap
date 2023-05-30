@@ -6,7 +6,7 @@ import SelectSite from './components/pages/SelectSite/SelectSite';
 import PageCobro from './components/pages/PageCobro';
 import ParkingManagement from './components/UI/organisms/ParkingManagement';
 import RegistrationReserve from './components/pages/RegistrationReserve/RegistrationReserve';
-import RegisterGuard from './components/UI/molecules/RegisterGuard';
+import RegisterGuard from './components/UI/molecules/registerGuard';
 function App() {
   return (
     <BrowserRouter>
